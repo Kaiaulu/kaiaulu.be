@@ -1,0 +1,250 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    color: #868F9B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #10161A;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 4px;}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+a {
+    color: #181818;
+    text-decoration: none;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color: #A8A8A8;
+}
+
+.main-color {
+    color: #6195FF;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.bg-img {
+    background: url('../img/background4.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .4;
+    background: #1C1D21;
+}
+
+.scroller {
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  width: 120px;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  color: rgba(235, 235, 235, 0.5);
+}
+
+.logo.white-text {
+  background-color: black;
+  padding: 4px 15px;
+}
+
+.logo.black-text {
+  background-color: #f8f8f8;
+  padding: 4px 15px;
+}
+
+.navbar-header {
+  margin-left: 50px;
+}
+
+.navbar-right {
+  margin-right: 50px;
+}
+
+.navbar .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+}
+
+.navbar-fixed-top {
+  border-width: 0 0 0;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
+
+@media only screen and (max-width: 767px) {
+    #nav.nav-transparent .navbar-brand .logo-alt {
+        display: none !important;
+    }
+    #nav.nav-transparent .navbar-brand .logo {
+        display: block !important;
+    }
+}
+
+.content h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.raised-container {
+  color: rgba(0, 0, 0, .87);
+  background: #ffff;
+  margin: 0 0 10px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
+.raised-container.padded {
+    padding: 25px;
+}
+
+.raised-container.centered {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+.raised-container .centered {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.raised-container .mat-validate {
+    display: flex;
+}
+
+.raised-container  .mat-validate button {
+    display: flex;
+    margin: 15px 0;
+    margin-left: auto;
+  }
+
+.raised-container  .logo-image {
+  border-radius: 4px 4px 0 0;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.raised-container .description {
+  padding: 25px;
+  display: block;
+  position: absolute;
+  padding: 100px 30px 30px 30px;
+  bottom: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  -webkit-transition: bottom 0.4s;
+  transition: bottom 0.4s;
+}
+
+.raised-container:hover .description {
+  bottom: 0;
+}
+
+.section {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+.grey-bg {
+  background: #f8f8f8
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.sec-heading {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.info {
+  padding: 25px;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-links li {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+}
+
+.social-links li a {
+  padding: 0 10px;
+  font-size: 0.8em
+}
+
+.description {
+  text-align: center;
+}
+
+.copyright {
+  background: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright a {
+  color: white;
+}
